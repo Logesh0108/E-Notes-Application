@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #6f0db5, #b15be0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h2 {
+            color: #fff;
+            text-align: center;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        } 
+         h2 {
+            text-align: center;
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px; 
+        }
+        h3 {
+	  font-size: 1em;
+	  color: #333; /* Set your preferred text color */
+	  margin-bottom: 10px; /* Adjust as needed */
+	}
+	
+	h3 a {
+	  text-decoration: none;
+	  color: #007bff; /* Set your preferred link color */
+	}
+	
+	h3 a:hover {
+	  color: red;
+	}
+	form{
+		box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	}
+	 #footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: #22092C;
+  color: #fff;
+  text-align: center;
+}
+.project h2 {
+  color:powderblue; /* Set your desired text color */
+  font-size: 40px; /* Set your desired font size */
+  margin-top: -150q;
+  }
+    
+    
+    </style>
+</head>
+<body>
+	
+	
+    <div class="login-container">
+		
+		<div class="project">
+    <h2>E-Notes Application</h2>
+    
+  </div>
+        <h2>Register to Continue... </h2>
+        <form action="connect.jsp " method="POST">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <input type="submit" value="Register"></input>
+            <h3>Already have an Account? <a href="login.html">Login  here</a></h3>
+        </form>
+    </div>
+    </script>
+   
+<footer id="footer">
+    &copy; 2023 E-Notes Application. All Rights Reserved.
+  </footer>
+ 
+
+</body>
+</html>
